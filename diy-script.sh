@@ -40,6 +40,12 @@ git_sparse_clone main https://github.com/Lienol/openwrt-package luci-app-filebro
 git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/luci-app-eqos
 # git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-ddns-go package/luci-app-ddns-go
+git clone --depth=1 https://github.com/sirpdboy/netspeedtest package/luci-app-netspeedtest
+git clone --depth=1 https://github.com/ZeaKyX/speedtest-web
+git clone --depth=1 https://github.com/sivel/speedtest-cli 
+git clone --depth=1 https://github.com/sirpdboy/NetSpeedTest package/luci-app-netspeedtest
+git clone --depth=1 https://github.com/sirpdboy/luci-app-lucky package/luci-app-lucky
+git clone --depth=1 https://github.com/kenzok8/small-package.git
 
 # 科学上网插件
 #git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
