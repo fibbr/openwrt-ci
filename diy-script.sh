@@ -43,6 +43,7 @@ git clone https://github.com/Boos4721/openwrt
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 make menuconfig
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
+git clone https://github.com/kenzok8/small-package.git package/luci-app-clouddrive2
 
 # 科学上网插件
 #git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
