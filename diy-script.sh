@@ -28,7 +28,12 @@ function git_sparse_clone() {
   mv -f $@ ../package
   cd .. && rm -rf $repodir
 }
+# 添加软件源
 sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
+# 更新软件源列表
+./scripts/feeds update smpackage
+# 安装所有软件包（或指定安装某些包）
+./scripts/feeds install -a -p smpackage
 
 # 添加额外插件
 git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
