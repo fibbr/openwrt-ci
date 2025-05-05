@@ -50,8 +50,6 @@ git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/
 # git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
 # git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 # git clone https://github.com/kenzok8/small.git package/openwrt-small
-git clone https://github.com/kenzok8/small-package package/small-package
-git clone --depth=1 https://github.com/kenzok8/small-packag package/small-package
 
 # 科学上网插件
 #git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
